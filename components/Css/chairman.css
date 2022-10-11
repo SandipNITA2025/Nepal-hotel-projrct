@@ -1,0 +1,204 @@
+/* ----Fonts----- */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-track {
+  background: #fff;
+}
+::selection {
+  background-color: var(--bule);
+  color: var(--primary);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway-Regular";
+}
+.container {
+  width: 100%;
+}
+section.msg {
+  width: 96%;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.msgtitle {
+  font-weight: 700;
+  padding: 1rem 0;
+  width: 100%;
+  margin-bottom: 2.5rem;
+  background-color: #2c2c54;
+  color: #eee;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.msgtitle h1 {
+  font-size: 2rem;
+}
+.containerch {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.containerch h2 {
+  font-family: "Raleway", sans-serif;
+  padding: 1rem 0;
+}
+.containerch h3 {
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 1rem;
+}
+.containerch .image {
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+}
+.containerch .image img {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.para {
+  margin-bottom: 2rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+}
+.info .para p {
+  font-family: "Raleway", sans-serif;
+  padding: 0.8rem 0;
+  font-weight: 500;
+}
+
+.msglast {
+  padding: 1rem 0;
+  font-family: "Raleway", sans-serif;
+}
+.msglast h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  color: #182c61;
+}
+.msglast h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  color: #2c3a47;
+}
+.msglast p {
+  margin: 0;
+  padding: 3px 0;
+}
+.msglast .tobold {
+  font-size: 1rem;
+}
+.msglast p span {
+  font-size: 1rem;
+}
+p.tobold {
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+footer .footer {
+  margin-top: 1.5rem;
+  height: 3rem;
+  background-color: #2c2c54;
+}
+
+/* --------media query--------- */
+@media screen and (max-width: 640px) {
+  section.msg {
+    width: 95%;
+    margin: auto;
+    padding: 0 0.5rem;
+  }
+
+  .msgtitle h1 {
+    font-size: 1.1rem;
+  }
+  .containerch h2 {
+    font-size: 1rem;
+  }
+  .containerch h3 {
+    font-size: 1rem;
+  }
+  .info .para p {
+    font-size: 0.9rem;
+  }
+
+  .info .msglast {
+    padding: 0.6rem 0;
+  }
+
+  .info .msglast p {
+    margin: 0;
+    padding: 3px 0;
+    font-size: 0.75rem;
+  }
+  .info .msglast .tobold {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .msgtitle h1 {
+    font-size: 1rem;
+  }
+  .info .para p {
+    padding: 0.5rem 0;
+  }
+  .info .msglast {
+    padding: 0.5rem 0;
+  }
+  .info .msglast h2 {
+    font-size: 1rem;
+  }
+  .info .msglast h5 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .containerch .image {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+  }
+  .msgtitle h1 {
+    font-size: 1rem;
+  }
+  .containerch h2 {
+    font-size: 0.9rem;
+  }
+  .containerch h3 {
+    font-size: 0.8rem;
+  }
+  .info .para p {
+    font-size: 0.9rem;
+  }
+}

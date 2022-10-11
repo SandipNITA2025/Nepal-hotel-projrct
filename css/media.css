@@ -1,0 +1,1664 @@
+/* Media Query for Large screens */
+
+@media screen and (min-width: 1281px) {
+  /* Navigation */
+  nav {
+    width: 100%;
+  }
+  .menu-list li {
+    padding: 0 1rem;
+  }
+
+  /* ------hero section---- */
+  .hero-heading h1 {
+    font-size: 4rem;
+  }
+  .hero-heading p {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  .hero-heading p span {
+    font-size: 1rem;
+  }
+  main h1 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 0rem;
+  }
+  /* ------hero section---- */
+
+
+  /* ------reservation--- */
+  .reservation .slide .room-content h3 {
+    font-size: .8rem;
+    cursor: pointer;
+    font-family: "Kaushan Script", cursive;
+  }
+  .reservation .slide .room-content p {
+    font-size: 0.6rem;
+  }
+  .reservation .slide .room-content .room-price p {
+    font-size: 12px;
+  }
+  
+  /* -----management------- */
+  .city-box .choice-info h4 {
+    font-size: 1rem;
+  }
+  .city-box .choice-info p {
+    font-size: 1.2rem;
+  }
+  .city-box .choice-info p > span {
+    font-size: 1.2rem;
+  }
+  /* -----management------- */
+}
+
+/* Media Query for Laptops and Desktops */
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  /* ----Buttons--- */
+  .more-btn {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+    top: -20px;
+  }
+  .read-more {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .web-container {
+    padding: 0 1.5rem;
+  }
+
+  /* -----navigation----- */
+
+  nav {
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+  }
+  .menu-list li a {
+    font-size: 0.8rem;
+    font-weight: 700;
+    word-spacing: 0.1px;
+  }
+  .menu-list li {
+    padding: 0 0.7rem;
+  }
+
+  /* ------hero section------ */
+  main h1 {
+    grid-template-columns: 1fr 3fr 1fr;
+    /* grid-template-rows: 16px 0; */
+    grid-gap: 0rem;
+  }
+  .hero-heading p span {
+    font-size: 1rem;
+  }
+
+  /* -------about------ */
+  section.about-hotel h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+    font-family: "Raleway", sans-serif;
+  }
+  section.about-hotel p > span {
+    line-height: 1.5;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    padding-right: 1rem;
+  }
+  .about-right {
+    padding: 2rem;
+  }
+
+  /* ----facilities---- */
+  .facility-box .icons p {
+    color: var(--black);
+    font-size: 0.94rem;
+  }
+
+  /* -----Reservation------ */
+  .reservation .slide {
+    margin: 1.5rem 0;
+  }
+  .reservation .slide .image {
+    height: 12rem;
+  }
+  .reservation .slide .room-content {
+    padding: 0.5rem;
+  }
+  .reservation .slide .room-content h3 {
+    font-size: 0.67rem;
+  }
+  .reservation .slide .room-content p {
+    font-size: 0.6rem;
+  }
+  .reservation .slide .room-content .room-price p {
+    font-size: 10px;
+  }
+
+  /* -----management------- */
+  .choice-container {
+    padding: 2rem 0rem;
+  }
+  .choice-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(223, 237, 242, 0.5);
+    height: auto;
+    padding: 2rem 0rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(15rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.3rem;
+    padding: 2rem;
+  }
+  .choice-container .city-box {
+    height: 440px;
+  }
+  .city-box .city-image {
+    /* z-index: 100; */
+    position: relative;
+    overflow: hidden;
+    height: 16rem;
+    width: 100%;
+  }
+  .city-box .choice-info {
+    padding: 0.7rem;
+    text-align: justify;
+  }
+  .city-box .choice-info .price-info h4 {
+    font-size: 1rem;
+  }
+  .city-box .choice-info .price-info p {
+    font-size: 0.8rem;
+  }
+  .city-box .choice-info .price-info p > span {
+    color: rgb(111, 111, 111);
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+
+  /* ----chairman------ */
+  section.about-chairman .chairman-img {
+    width: 50%;
+    height: 27rem;
+  }
+  section.about-chairman img {
+    height: 100%;
+    width: 100%;
+  }
+  .about-chairman-right {
+    padding: 2rem;
+  }
+  section.about-chairman h3 {
+    font-size: 1.5rem;
+  }
+  section.about-chairman p {
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+  section.about-chairman p span {
+    font-size: 0.9rem;
+  }
+
+  /* -----Travel----- */
+  .packages .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(11rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+  .packages .box-container .travel-box .image {
+    height: 12rem;
+  }
+  .packages .box-container .travel-box .content h3 {
+    font-size: 1rem;
+  }
+  .packages .box-container .travel-box .content .details p {
+    font-size: 0.51rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.1;
+  }
+
+  /* -------gallery----- */
+  .gallery .gallery-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(18rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  }
+
+  /* ------contact----- */
+  .section-heading {
+    margin-bottom: 2rem;
+  }
+  section.contact-us .contact-info-wrapper .contact-info > div > div {
+    margin-bottom: 1.3rem;
+  }
+
+  /* ----Footer------ */
+  footer .container {
+    color: var(--pure);
+    padding: 0 2rem;
+  }
+  footer .box p > span {
+    line-height: 1;
+    margin-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.9rem;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media screen and (max-width: 1026px) {
+  /* ----Buttons--- */
+  .more-btn {
+    padding: 0.6rem;
+    font-size: 0.85rem;
+    top: -20px;
+  }
+  .read-more {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .web-container {
+    padding: 0 1.5rem;
+  }
+
+  /* -----navigation----- */
+
+  nav {
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+  }
+  .menu-list li a {
+    font-size: 0.83rem;
+    font-weight: 700;
+    word-spacing: 0.1px;
+  }
+  .menu-list li {
+    padding: 0 0.7rem;
+  }
+
+  /* ------hero section------ */
+  main h1 {
+    grid-template-columns: 1fr 3fr 1fr;
+    /* grid-template-rows: 16px 0; */
+    grid-gap: 0rem;
+  }
+  .hero-heading p span {
+    font-size: 1rem;
+  }
+
+  /* -------about------ */
+  section.about-hotel h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+    font-family: "Raleway", sans-serif;
+  }
+  section.about-hotel p > span {
+    /* margin-bottom: 1.2rem; */
+    line-height: 1.5;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    padding-right: 1rem;
+  }
+  .about-right {
+    padding: 2rem;
+  }
+
+  /* ----facilities---- */
+  .facility-box .icons p {
+    color: var(--black);
+    font-size: 0.94rem;
+  }
+
+  /* -----Reservation------ */
+  .reservation .slide {
+    margin: 1.5rem 0;
+  }
+  .reservation .slide .image {
+    height: 12rem;
+  }
+  .reservation .slide .room-content {
+    padding: 0.5rem;
+  }
+  .reservation .slide .room-content h3 {
+    font-size: 0.67rem;
+  }
+  .reservation .slide .room-content p {
+    font-size: 0.6rem;
+  }
+  .reservation .slide .room-content .room-price p {
+    font-size: 10px;
+  }
+  /* -----Reservation------ */
+
+  /* -----management------- */
+  .choice-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(223, 237, 242, 0.5);
+    height: auto;
+    padding: 2rem 0rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(14rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 1.3rem;
+    padding: 2rem;
+  }
+  .choice-container .city-box {
+    height: 440px;
+  }
+  .city-box .city-image {
+    /* z-index: 100; */
+    position: relative;
+    overflow: hidden;
+    height: 16rem;
+    width: 100%;
+  }
+  .city-box .choice-info {
+    padding: 0.7rem;
+    text-align: justify;
+  }
+  .city-box .choice-info .price-info h4 {
+    font-size: 0.8rem;
+  }
+  .city-box .choice-info .price-info p {
+    font-size: 0.8rem;
+  }
+  .city-box .choice-info .price-info p > span {
+    color: rgb(111, 111, 111);
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+  /* -----management------- */
+
+  /* ----chairman------ */
+  section.about-chairman .chairman-img {
+    width: 50%;
+    height: 27rem;
+  }
+  section.about-chairman img {
+    height: 100%;
+    width: 100%;
+    /* height: 100%; */
+  }
+  .about-chairman-right {
+    padding: 2rem;
+  }
+  section.about-chairman h3 {
+    font-size: 1.5rem;
+  }
+  section.about-chairman p {
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+  section.about-chairman p span {
+    font-size: 0.9rem;
+  }
+  /* ----chairman------ */
+
+  /* -----Travel----- */
+  .packages .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(11rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 1.3rem;
+    padding: 2rem;
+  }
+  .packages .box-container .travel-box .image {
+    height: 14rem;
+  }
+  .packages .box-container .travel-box .content h3 {
+    font-size: 1rem;
+  }
+  .packages .box-container .travel-box .content .details p {
+    font-size: 0.6rem;
+    padding-bottom: 0.5rem;
+    line-height: 1;
+  }
+  /* -----Travel----- */
+
+  /* -------gallery----- */
+  .gallery .gallery-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(18rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  }
+  /* -------gallery----- */
+
+  /* -------review------ */
+  .review-container .review-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(10rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+
+    grid-gap: 1.5rem;
+  }
+  /* -------review------ */
+
+  /* ------contact----- */
+  .section-heading {
+    margin-bottom: 2rem;
+  }
+  section.contact-us .contact-info-wrapper .contact-info > div > div {
+    margin-bottom: 1.3rem;
+  }
+  /* ------contact----- */
+
+  /* ----Footer------ */
+  footer .container {
+    color: var(--pure);
+    padding: 0 2rem;
+  }
+  footer .box p > span {
+    line-height: 1;
+    margin-bottom: 0.8rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.9rem;
+  }
+  /* ----Footer------ */
+}
+
+/* -------media 998px----------------- */
+@media screen and (max-width: 982px) {
+  /* ----about----- */
+
+  section.about-hotel h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+    font-family: "Raleway", sans-serif;
+  }
+  section.about-hotel p > span {
+    line-height: 1.3;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    padding-right: 0rem;
+  }
+  .about-right {
+    align-self: center;
+    justify-self: center;
+    padding: 1rem;
+    padding-left: 0.5rem;
+  }
+
+  /* -----management------- */
+  .choice-container .city-box {
+    height: 420px;
+  }
+  .city-box .city-image {
+    position: relative;
+    overflow: hidden;
+    height: 15rem;
+    width: 100%;
+  }
+  .city-box .choice-info {
+    padding: 0.7rem;
+    text-align: justify;
+  }
+  .city-box .choice-info .price-info h4 {
+    font-size: 0.8rem;
+  }
+  .city-box .choice-info .price-info p {
+    font-size: 0.7rem;
+  }
+  .city-box .choice-info .price-info p > span {
+    font-size: 0.75rem;
+  }
+  /* -----management------- */
+
+  /* ----chairman--- */
+  section.about-chairman p {
+    line-height: 1.2;
+    font-size: 0.9rem;
+  }
+  /* ----chairman--- */
+
+  /* review */
+  section .review-container .review-card .comment {
+    padding: 1rem 1rem;
+    text-align: justify;
+  }
+  section .review-container .review-card .comment p {
+    font-size: 0.8rem;
+  }
+  section .review-container .review-card .re-img h4 {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 1rem;
+  }
+
+  /*----footer---- */
+  footer .box h3 {
+    font-family: 0.9rem;
+  }
+  footer .box p > span {
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.7rem;
+  }
+
+  /*----footer---- */
+}
+
+/* ----------950px---------- */
+@media screen and (max-width: 950px) {
+  .packages .box-container .travel-box .content h3 {
+    font-size: 0.9rem;
+  }
+  .packages .box-container .travel-box .content .details p {
+    font-size: 0.6rem;
+    padding-bottom: 0.5rem;
+    line-height: 1;
+  }
+}
+
+/* ------media width: 870px------- */
+@media screen and (max-width: 870px) {
+  /* ----nav toggle--- */
+
+  .menu-list {
+    display: none;
+  }
+
+  /* nav icons */
+  .icon {
+    display: block;
+  }
+  .icon.hide {
+    display: none;
+  }
+  .navbar .menu-list {
+    position: fixed;
+    height: 100vh;
+    width: 75%;
+    max-width: 350px;
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 3rem 0;
+    text-align: justify;
+    background: rgb(238, 236, 236);
+    transition: all 0.3s ease;
+  }
+  .navbar.show .menu-list {
+    left: 0%;
+  }
+  .navbar .menu-list li {
+    margin-top: 1.9rem;
+    margin-left: 1.4rem;
+  }
+  .navbar .menu-list li a {
+    font-size: 1.3rem;
+    margin-left: -100%;
+  }
+  .navbar.show .menu-list li a {
+    margin-left: 0px;
+  }
+
+  /* ----nav toggle--- */
+
+
+
+  /* -----hero---- */
+  
+  .hero-heading h1 {
+    font-size: 2.6rem;
+  }
+  /* ---- About ------ */
+  .about-right {
+    align-self: center;
+    justify-self: center;
+    padding: 1rem;
+    padding-left: 0.5rem;
+  }
+
+  .choice-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(223, 237, 242, 0.5);
+    height: auto;
+    padding: 2rem 0rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(12rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 1.3rem;
+    padding: 2rem;
+  }
+  .city-box .choice-info .price-info h4 {
+    font-size: 0.7rem;
+    font-family: "Raleway", sans-serif;
+    word-break: break-all;
+    line-height: 1.1;
+  }
+  .city-box .choice-info .price-info p {
+    color: var(--pure-black);
+    padding: 0.2rem 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.65rem;
+    font-weight: 600;
+  }
+  .city-box .choice-info .price-info p > span {
+    color: rgb(111, 111, 111);
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 0.7rem;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media screen and (max-width: 790px) {
+  /* ----Buttons--- */
+  .more-btn {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+    top: -20px;
+  }
+
+  .read-more {
+    padding: 0.4rem;
+    font-size: 0.65rem;
+  }
+  /* ----Buttons--- */
+
+  /* ----nav toggle--- */
+
+  .menu-list {
+    display: none;
+  }
+
+  /* nav icons */
+  .icon {
+    display: block;
+  }
+  .icon.hide {
+    display: none;
+  }
+  .navbar .menu-list {
+    position: fixed;
+    height: 100vh;
+    width: 75%;
+    max-width: 350px;
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 3rem 0;
+    text-align: justify;
+    background: rgb(238, 236, 236);
+    transition: all 0.3s ease;
+  }
+  .navbar.show .menu-list {
+    left: 0%;
+  }
+  .navbar .menu-list li {
+    margin-top: 1.9rem;
+    margin-left: 1.4rem;
+  }
+  .navbar .menu-list li a {
+    font-size: 1.3rem;
+    margin-left: -100%;
+  }
+  .navbar.show .menu-list li a {
+    margin-left: 0px;
+  }
+
+  /* ----nav toggle--- */
+
+  /* ------hero section------ */
+  main h1 {
+    grid-template-columns: 1fr 3fr 1fr;
+
+    grid-gap: 0rem;
+  }
+  .hero-heading p span {
+    font-size: 1rem;
+  }
+  .hero-heading h1 {
+    font-size: 2.8rem;
+  }
+  .hero-heading p span {
+    font-size: 1rem;
+  }
+  /* ------hero section------ */
+
+  /* ------about------ */
+  /* -------about------ */
+  section.about-hotel .about-hotel-wrappper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(13rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 1rem;
+    padding: 0;
+  }
+  section.about-hotel h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-family: "Raleway", sans-serif;
+  }
+  section.about-hotel p > span {
+    line-height: 1.3;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    padding-right: 0.5rem;
+  }
+  .about-right {
+    padding: 2rem;
+  }
+  /* -------about------ */
+  /* ------about------ */
+
+  /* -----facilities---- */
+  .facility .facility-box {
+    padding: 4rem 0;
+    text-align: center;
+    border: 1.6px solid #b6b6b680;
+  }
+  .facility-box .icons {
+    width: 100px;
+    /* height: 50px; */
+  }
+  .facility-box .icons img {
+    width: 48px;
+    height: 48px;
+  }
+  .facility-box .icons p {
+    font-size: 0.75rem;
+    line-height: 2;
+  }
+  /* -----facilities---- */
+
+  /* -----management------- */
+  .choice-container .city-box {
+    height: 400px;
+  }
+  .city-box .city-image {
+    position: relative;
+    overflow: hidden;
+    height: 13rem;
+    width: 100%;
+  }
+  .city-box .choice-info {
+    padding: 0.7rem;
+    text-align: justify;
+  }
+  .city-box .choice-info .price-info h4 {
+    font-size: 0.7rem;
+  }
+  .city-box .choice-info .price-info p {
+    font-size: 0.6rem;
+  }
+  .city-box .choice-info .price-info p > span {
+    font-size: 0.65rem;
+  }
+  /* -----management------- */
+
+  /* ----chairman----- */
+  .about-chairman-right {
+    padding: 1rem;
+  }
+  section.about-chairman p {
+    line-height: 1.1;
+    padding-right: 0;
+  }
+
+  section.about-chairman .chairman-img {
+    width: 50%;
+    height: 22rem;
+  }
+  /* ----chairman----- */
+
+  /* -----Travel----- */
+  .packages .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(13rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 2.5rem;
+    padding: 2rem;
+  }
+  .packages .box-container .travel-box .image {
+    height: 20rem;
+  }
+  .packages .box-container .travel-box .content .details p {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.1;
+  }
+  /* -----Travel----- */
+
+  /* -------review------ */
+
+  /* -------review------ */
+
+  /* -------footer----- */
+  footer .box p > span {
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 1;
+  }
+
+  /* -------footer----- */
+}
+
+/* =========== media 731px===========  */
+@media screen and (max-width: 788px) {
+  /* ---nav---- */
+  .navbar .menu-list li {
+    margin-top: 1.7rem;
+    margin-left: 1.4rem;
+  }
+  .navbar .menu-list li a {
+    font-size: 0.9rem;
+    margin-left: -100%;
+  }
+
+
+  /* ----hero------ */
+ 
+  .hero-heading h1 {
+    font-size: 2.55rem;
+  }
+  .hero-heading p{
+    font-size: 1rem;
+  }
+  .hero-heading p span {
+    font-size: .8rem;
+  }
+
+  /* -----about------ */
+
+  section.about-hotel h3 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    font-family: "Raleway", sans-serif;
+  }
+  section.about-hotel p > span {
+    font-size: 0.8rem;
+    line-height: 0.5;
+  }
+  .about-right {
+    padding: 0.8rem;
+    padding-left: 1rem;
+  }
+
+  /* -----about------ */
+
+  /*------------ Facility section------------ */
+
+  .facility-box .icons {
+    width: 90px;
+  }
+
+  /* -----management------- */
+  .choice-container .city-box {
+    height: 400px;
+  }
+  .city-box .city-image {
+    position: relative;
+    overflow: hidden;
+    height: 14rem;
+    width: 100%;
+  }
+  .city-box .choice-info {
+    padding: 0.7rem;
+    text-align: justify;
+  }
+  .city-box .choice-info .price-info h4 {
+    font-size: 0.65rem;
+  }
+  .city-box .choice-info .price-info p {
+    font-size: 0.6rem;
+  }
+  .city-box .choice-info .price-info p > span {
+    font-size: 0.65rem;
+  }
+  /* -----management------- */
+
+  /* ------chairman------- */
+  section.about-chairman .chairman-img {
+    width: 50%;
+    height: 20rem;
+  }
+  section.about-chairman h3 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  section.about-chairman p {
+    font-size: 0.8rem;
+    line-height: 1;
+  }
+  section.about-chairman p span {
+    font-size: 0.65rem;
+    line-height: 1;
+  }
+  .about-chairman-right {
+    padding: 1rem 1.5rem;
+  }
+  /* ------chairman------- */
+
+  /* review */
+  .review-container .review-wrapper {
+    grid-gap: 1rem;
+  }
+  section .review-container .review-card .re-img h4 {
+    font-size: 0.9rem;
+  }
+  section .review-container .review-card .comment {
+    padding: 0.7rem 0.7rem;
+    text-align: justify;
+  }
+  section .review-container .review-card .comment p {
+    font-size: 0.7rem;
+  }
+
+  /* ----Footer------ */
+  footer .container {
+    color: var(--pure);
+    padding: 0 1.5rem;
+  }
+  footer .box p > span {
+    line-height: 0.5;
+    margin-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.6rem;
+  }
+  footer .box:nth-child(2) > div {
+    display: flex;
+    justify-content: center;
+  }
+  footer .box .footer-ul ul li a {
+    font-family: "Raleway", sans-serif;
+    font: 600;
+    font-size: 0.7rem;
+  }
+  footer .box ul li a span {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  /* ----Footer------ */
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 640px) {
+  /* -------Button------------ */
+  .more-btn {
+    padding: 0.7rem;
+    cursor: pointer;
+    font-size: 1rem;
+    top: -22px;
+  }
+  .more-btn i {
+    padding-right: 0.6rem;
+  }
+  .read-more {
+    padding: 0.7rem;
+    font-size: 1rem;
+  }
+  /* -------Button------------ */
+
+  .web-container {
+    padding: 0 0.9rem;
+  }
+
+  .h-primary {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  section h1 {
+    text-align: center;
+    grid-template-columns: 0fr 2fr 2fr;
+
+    grid-gap: 0.5rem;
+  }
+
+  /* navigation */
+  nav {
+    padding: 0.5rem 2rem;
+    width: 100vw;
+  }
+  .navbar .logo img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  /* nav icons */
+  .icon {
+    display: block;
+  }
+  .icon.hide {
+    display: none;
+  }
+  .navbar .menu-list {
+    position: fixed;
+    height: 100vh;
+    width: 75%;
+    max-width: 400px;
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 3rem 0;
+    text-align: justify;
+    background: rgb(238, 236, 236);
+    transition: all 0.3s ease;
+  }
+  .navbar.show .menu-list {
+    left: 0%;
+  }
+  .navbar .menu-list li {
+    margin-top: 1.7rem;
+    margin-left: 1.4rem;
+  }
+  .navbar .menu-list li a {
+    font-size: 1rem;
+    margin-left: -100%;
+  }
+  .navbar.show .menu-list li a {
+    margin-left: 0px;
+  }
+  /* nav icons */
+
+  /* -----hero section----- */
+  .hero {
+    height: 650px;
+  }
+  .hero .hero-box {
+    background-position: 65% 50%;
+  }
+  .hero-heading {
+    position: relative;
+    top: 310px;
+    padding: 1rem;
+  }
+  .hero-heading h1 {
+    font-size: 2.4rem;
+  }
+  .hero-heading p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .hero-heading p span {
+    font-size: 0.8rem;
+  }
+
+  main h1 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 0fr 2fr 0fr;
+    grid-gap: 1rem;
+  }
+  /* -----hero section----- */
+
+  /* --------about hotel-------- */
+  .section.about-hotel .about-hotel-wrappper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(12rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 0.8rem;
+    padding: 0;
+  }
+  .about-hotel .about-hotel-wrappper {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .about-hotel .about-hotel-wrap img {
+    width: 100%;
+  }
+  section.about-hotel h3 {
+    font-size: 0.9rem;
+  }
+  section.about-hotel p > span {
+    font-size: 0.9rem;
+    line-height: 0.8;
+  }
+  .about-right {
+    padding: 0.8rem;
+  }
+  /* --------about hotel-------- */
+
+  /* -----facility ------------ */
+  .facility-box .icons {
+    width: 150px;
+    margin: 0.8rem 0;
+  }
+  .facility-box .icons img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.5rem;
+  }
+
+  .facility-box .icons p {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  /* -----facility ------------ */
+
+  /*-------- Reservation--------  */
+
+  .reservation .room-slider {
+    overflow: hidden;
+    background-color: #eee;
+  }
+  .reservation .slide {
+    width: 20rem;
+    margin: 2rem 0;
+    cursor: auto;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+
+  .reservation .slide .image {
+    position: relative;
+    overflow: hidden;
+    height: 18rem;
+    width: 100%;
+    cursor: grab;
+  }
+
+  .reservation .slide .room-content h3 {
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: "Kaushan Script", cursive;
+  }
+  .reservation .slide .room-content p {
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+  }
+  .reservation .slide .room-content .room-price {
+    cursor: pointer;
+    padding-top: 0.5rem;
+  }
+  .reservation .slide .room-content .room-price p {
+    line-height: 1.3;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .reservation .slide .room-content .room-price p span {
+    /* line-height: 1.4; */
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    font-size: 0.5rem;
+    color: black;
+  }
+
+  /*----------- Reservation------ */
+
+  /* ------management------- */
+
+  .choice-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(223, 237, 242, 0.5);
+    height: auto;
+    padding: 2rem 1rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(15rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .choice-container .city-box {
+    padding-bottom: 0.5rem;
+  }
+  .city-box .choice-info .price-info h4 {
+    font-size: 0.9rem;
+  }
+  .city-box .choice-info .price-info p > span {
+    font-size: 0.88rem;
+  }
+  .city-box .choice-info .price-info p {
+    font-size: 0.8rem;
+  }
+
+  /* ------management------- */
+
+  /* -------Chairman--------- */
+  .about-chairman .about-chairman-wrappper {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .about-chairman-wrappper {
+    padding: 1rem;
+  }
+  section.about-chairman .chairman-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  section.about-chairman img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  section.about-chairman h3 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  section.about-chairman p {
+    font-size: 0.9rem;
+    line-height: 1.25;
+    padding-right: 0;
+  }
+  section.about-chairman p span {
+    font-size: 0.9rem;
+    line-height: 1.25;
+    padding-right: 0;
+  }
+  .about-chairman-right {
+    padding: 0.3rem;
+  }
+  .about-chairman-right div {
+    margin: 0.8rem;
+    text-align: center;
+  }
+  /* -------Chairman--------- */
+
+  /* -----tarvel */
+  .packages .box-container .travel-box .content .details p {
+    font-size: 0.8rem;
+  }
+  /* -----tarvel */
+
+  .choice-container {
+    flex-direction: column;
+  }
+  .choice-container .city-box {
+    height: 570px;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .city-box .city-image {
+    height: 60%;
+    padding: 1rem;
+  }
+
+  .packages .box-container {
+    padding: 1rem;
+  }
+
+  .gallery-container .g-image {
+    padding: 0;
+  }
+
+  /* ----------- review ------------- */
+
+  section .review-container {
+    flex-direction: column;
+  }
+  section .review-container .review-card .comment {
+    padding: 1rem 1rem;
+    text-align: justify;
+  }
+  section .review-container {
+    width: 100%;
+
+    background-color: #eeeeee;
+
+    padding: 0.8rem;
+  }
+  section .review-container .review-card .comment p {
+    font-size: 0.88rem;
+  }
+
+  /* ----------- review ------------- */
+
+  /* -----contact------------- */
+
+  section.contact-us {
+    flex-direction: column;
+  }
+  section.contact-us .contact-info-wrapper {
+    padding: 2rem 0;
+  }
+  section.contact-us .contact-info-wrapper .contact-info > div > div {
+    margin-bottom: 1.1rem;
+  }
+  section.contact-us .contact-info-wrapper h2 {
+    margin-bottom: 2rem;
+  }
+
+  section.contact-us .map iframe {
+    min-height: 300px;
+  }
+  footer.contact-us {
+    flex-direction: column;
+  }
+
+  /* -----contact------------- */
+
+  /* -------Footer----------- */
+  footer.copyright div {
+    font-size: 10px;
+  }
+  footer .container {
+    padding: 0 1.7rem;
+  }
+  footer.last-details .container {
+    flex-direction: column;
+  }
+  footer.last-details .box {
+    text-align: left;
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+  footer .box p > span {
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+  }
+
+  footer.last-details .box:nth-child(2) > div {
+    text-align: left;
+    display: block;
+    margin-right: 0;
+  }
+  footer.last-details .box:nth-child(3) h3 {
+    /* text-align: left; */
+    margin-right: 0;
+  }
+  footer.last-details .box:nth-child(3) > div {
+    display: block;
+  }
+  /* -------Footer----------- */
+}
+
+/* ----media 480px------ */
+@media screen and (max-width: 481px) {
+
+  /* -------Button------------ */
+  .more-btn {
+    padding: 0.7rem;
+    cursor: pointer;
+    font-size: .8rem;
+    /* top: -22px; */
+  }
+  .more-btn i {
+    padding-right: 0.6rem;
+  }
+  .read-more {
+    padding: 0.7rem;
+    font-size: .8rem;
+  }
+
+  /* ----hero---- */
+  .hero-heading p span {
+    font-size: 0.75rem;
+  }
+  /* --about---- */
+    .section.about-hotel .about-hotel-wrappper {
+    gap: 0.6rem;
+    padding: 0;
+  }
+  section.about-hotel h3 {
+    font-size: 1.1rem;
+  }
+  .about-right {
+    padding: 0.8rem;
+  }
+
+  /* -----facility ------------ */
+  .facility-box .icons {
+    width: 100px;
+    margin: 0.8rem 0;
+  }
+  .facility-box .icons p {
+    font-size: 0.8rem;
+  }
+
+  /* -------management---- */
+  .choice-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(223, 237, 242, 0.5);
+    height: auto;
+    padding: 2rem 1rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(15rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .city-box .choice-info .price-info h4 {
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+    word-break: break-all;
+    line-height: 1.5;
+  }
+
+  /* -------chairman----- */
+  section.about-chairman h3 {
+    font-size: 1.2rem;
+  }
+
+  /* ---review---- */
+  .review-container .review-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(15rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+    grid-gap: 2.5rem;
+    padding: 0.5rem;
+  }
+  
+  /* contact us */
+  section.contact-us .contact-info-wrapper .contact-info > div > div i {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+  }
+  section.contact-us
+    .contact-info-wrapper
+    .contact-info
+    > div
+    > div
+    > div
+    > span:first-child {
+    font-size: 1rem;
+  }
+  section.contact-us
+    .contact-info-wrapper
+    .contact-info
+    > div
+    > div
+    span
+    a:nth-child(1) {
+    font-size: 0.9rem;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+  .facility-box .icons {
+    width: 120px;
+    margin: 0.8rem 0;
+  }
+}
+/* ----------media 384px----------- */
+@media screen and (max-width: 384px) {
+  /* ---Buttons----- */
+  .more-btn {
+    padding: 0.5rem;
+  }
+  .more-btn a {
+    font-size: 0.7rem;
+  }
+
+  .read-more {
+    font-size: 0.6rem;
+    padding: 0.4rem;
+  }
+
+  /* hero */
+  .hero-heading h1 {
+    font-size: 1.8rem;
+  }
+  .hero-heading p {
+    font-size: 0.65rem;
+  }
+  .hero-heading p span {
+    font-size: 0.6rem;
+  }
+  .hero-heading {
+    position: relative;
+    top: 310px;
+    padding: 1rem;
+  }
+
+  /* about */
+  section.about-hotel h3 {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    font-family: "Raleway", sans-serif;
+  }
+  section.about-hotel p > span {
+    font-size: 0.8rem;
+  }
+
+  /* facilities */
+
+  .facility-box .icons {
+    width: 110px;
+  }
+  .facility-box .icons p {
+    color: var(--black);
+    font-size: 0.7rem;
+  }
+  .modal-header h2 {
+    font-size: 1rem;
+  }
+
+  /* management */
+  .choice-container .city-box {
+    flex-direction: column;
+    height: 400px;
+  }
+  .city-box .choice-info .price-info h4 {
+    font-size: 0.85rem;
+  }
+  .city-box .choice-info .price-info p {
+    font-size: 0.7rem;
+  }
+  .city-box .choice-info .price-info p > span {
+    font-size: 0.7rem;
+  }
+
+  /* chairman */
+  section.about-chairman h3 {
+    font-size: 1rem;
+  }
+  section.about-chairman p {
+    font-size: 0.8rem;
+  }
+  .about-chairman-right {
+    padding: 0rem;
+  }
+
+  /* travels */
+  .packages .box-container .travel-box .image {
+    height: 15rem;
+  }
+  .packages .box-container .travel-box .content h3 {
+    font-size: 1rem;
+  }
+
+  .packages .box-container .travel-box .content .details p {
+    font-size: 0.7rem;
+  }
+
+  /* review */
+  .review-container .review-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(8rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  }
+  section .review-container .review-card .re-img h4 {
+    font-size: 1rem;
+  }
+  section .review-container .review-card .comment p {
+    font-size: 0.85rem;
+  }
+
+  /* contact us */
+  section.contact-us .contact-info-wrapper .contact-info > div > div i {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  section.contact-us
+    .contact-info-wrapper
+    .contact-info
+    > div
+    > div
+    > div
+    > span:first-child {
+    font-size: 14px;
+  }
+  section.contact-us
+    .contact-info-wrapper
+    .contact-info
+    > div
+    > div
+    span
+    a:nth-child(1) {
+    font-size: 0.8rem;
+  }
+
+  /* footer */
+  footer .box p > span {
+    font-size: 0.8rem;
+  }
+  footer .box ul li a {
+    font-size: 0.9rem;
+  }
+  footer .box ul li a span {
+    font-size: 0.9rem;
+  }
+}

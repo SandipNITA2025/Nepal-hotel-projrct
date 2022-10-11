@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="./images/nav-logo.png" type="image/x-icon" />
+  <title>Management</title>
+
+   <!--AOS Animation CDN -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/media.css">
+
+   <!-- Icons CDN -->
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+   integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+ />
+ <link
+   rel="stylesheet"
+   href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"
+ />
+
+
+  <!-- Swipper CDN -->
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <!-- Link Swiper's CSS -->
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+ 
+ <!-- Animation CDN -->
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+
+
+ <style>
+  section.management{
+    margin-top: 7rem;
+  }
+  
+  .choice-container .city-box{
+    margin-bottom: 2.4rem;
+ 
+  }
+
+  .choice-container{
+    padding-bottom: 1rem;
+  }
+  .city-box .image-4{
+  background: url('../images/Kusum.JPG')no-repeat center center / cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  /* height: 80%; */
+}
+.city-box .image-5{
+  background: url('../images/Alka.jpg')no-repeat center center / cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.city-box .image-6{
+  background: url('../images/Ambika.jpg')no-repeat center center / cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: top; */
+}
+.city-box .image-7{
+  background: url('../images/Pooja.jpeg')no-repeat center center / cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+
+/* -----media quries---- */
+@media screen and (min-width:1281px){
+  .city-box:nth-child(4){
+  height: 430px;
+  }
+  .city-box:nth-child(5){
+  height: 430px;
+  }
+  .city-box:nth-child(6){
+  height: 430px;
+  }
+  .city-box:nth-child(7){
+  height: 430px;
+  }
+}
+
+@media screen and (max-width:1280px) and (min-width:1024px) {
+  .city-box .choice-info .price-info h4 {
+    font-size: .85rem;
+  }
+  .city-box .choice-info .price-info p {
+    font-size: 0.8rem;
+  }
+  .city-box .choice-info .price-info p > span {
+    color: rgb(111, 111, 111);
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 0.78rem;
+  }
+  .city-box:nth-child(4){
+  height: 350px;
+  }
+  .city-box:nth-child(5){
+  height: 350px;
+  }
+  .city-box:nth-child(6){
+  height: 350px;
+  }
+  .city-box:nth-child(7){
+  height: 350px;
+  }
+}
+
+@media screen and (max-width:1024px) and (min-width:641px) {
+  .city-box:nth-child(4){
+  height: 350px;
+  }
+  .city-box:nth-child(5){
+  height: 350px;
+  }
+  .city-box:nth-child(6){
+  height: 350px;
+  }
+  .city-box:nth-child(7){
+  height: 350px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  /* ----nav toggle--- */
+  .icon {
+    display: none;
+  }
+  .menu-list {
+    display: none;
+  }
+
+}
+@media screen and (max-width: 640px){
+  .icon {
+    display: none;
+  }
+  .menu-list {
+    display: block;
+  }
+ 
+}
+
+
+
+
+ </style>
+
+</head>
+
+
+
+
+
+
+
+
+<body>
+
+
+
+  <!-------------- navigation start --------------->
+  <nav class="navbar box-shadow flex justify-between align-center">
+    <div class="logo">
+      <a href="../index.html">
+        <img src="../images/nav-logo.png" alt="" />
+      </a>
+    </div>
+
+    <!-- <div class="nav-item"> -->
+      <ul class="menu-list flex">
+
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+
+    </div>
+  </nav>
+
+  <!--------------- navigation end --------------->
+
+
+
+
+ <!---------------- web container start------------------->
+ <div class="web-container">
+
+
+
+
+
+
+
+
+
+  <!------------ Management section start ------------>
+
+      <section class="management mg-bt" id="management">
+    <h1 class="h-primary">Management</h1>
+
+    <div class="choice-container box-shadow flex flex-wrap justify-around" data-aos="fade-up">
+
+
+      <!-- card 1 -->
+      <div class="city-box">
+        <div class="city-image image-1"></div>
+        <div class="choice-info">
+          <div class="price-info">
+            <h4>Mr. Nagendra Prasad Chaudhary</h4>
+            <p>( Chairman )</p>
+            <p>
+              <span>
+                Namaste and welcome to our website. Greetings from Hotel
+                Kusum Palace, It gives me immense pleasure ...
+              </span>
+            </p>
+          </div>
+        </div>
+        
+            <!-- Read more Button -->
+        <div class="read">
+          <a href="../components/chairman_msg.html">
+          <button id="readOnee" class="read-more">Read More</button>
+        </a>
+        </div>
+
+      </div>
+
+      <!-- card 2 -->
+      <div class="city-box">
+        <div class="city-image image-2"></div>
+
+        <div class="choice-info">
+          <div class="price-info">
+            <h4>Dr. Santosh Jaiswal</h4>
+            <p>( Executive Managing Director )</p>
+            <p>
+              <span>
+                I would like to take this opportunity to welcome you to the
+                country of Mount Everest, Lord Pashupatinath Lord ...
+              </span>
+            </p>
+          </div>
+        </div>
+           <!-- Read more Button -->
+           <div class="read">
+            <a href="../components/managing_msg.html">
+            <button id="readOnee" class="read-more">Read More</button>
+          </a>
+          </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="city-box">
+        <div class="city-image image-3"></div>
+
+        <div class="choice-info">
+          <div class="price-info">
+            <h4>CA Ravi Jaiswal</h4>
+            <p>( Executive Finance Director )</p>
+            <p>
+              <span>
+                Namaste and Warmth welcome! Greetings from Hotel Kusum
+                Palace, It gives me tremendous joy to present ...
+              </span>
+            </p>
+          </div>
+        </div>
+          <!-- Read more Button -->
+          <div class="read">
+            <a href="../components/finance_msg.html">
+            <button id="readOnee" class="read-more">Read More</button>
+          </a>
+          </div>
+      </div>
+
+       <!-- card 4 -->
+       <div class="city-box">
+        <div class="city-image image-4"></div>
+
+        <div class="choice-info">
+          <div class="price-info">
+            <h4>Mrs. Kusum Devi</h4>
+            <p>( Vice Chairman  )</p>
+            
+          </div>
+        </div>
+      </div>
+
+       <!-- card 5 -->
+       <div class="city-box">
+        <div class="city-image image-5"></div>
+
+        <div class="choice-info">
+          <div class="price-info">
+            <h4>Mrs. Alka Jaiswal</h4>
+            <p>( Director )</p>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+       <!-- card 6 -->
+       <div class="city-box">
+        <div class="city-image image-6"></div>
+
+        <div class="choice-info">
+          <div class="price-info">
+            <h4>Mrs. Ambika Jaiswal</h4>
+            <p>( Director )</p>
+            
+          </div>
+        </div>
+         
+      </div>
+
+
+
+       <!-- card 7 -->
+       <div class="city-box">
+        <div class="city-image image-7"></div>
+
+        <div class="choice-info">
+          <div class="price-info">
+            <h4>Dr. Pooja Jaiswal</h4>
+            <p>( Director )</p>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+      </div>
+
+
+      
+
+
+
+
+
+
+  </section>
+
+  <!------------ Management section end ------------>
+
+
+
+
+  <!--------------- Contact us start --------------->
+
+  <section id="contact" class="contact-us mg-bt box-shadow flex"  data-aos="zoom-in">
+    <div class="contact-info-wrapper flex-1">
+      <h2 class="section-heading">Contact Us</h2>
+      <div class="contact-info flex justify-center align-center">
+        <div class="cont-left">
+
+
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <span>Call us :</span>
+              <span> <a href="tel:+977-9854021413">+977-9854021413</a></span>
+              <span> <a href="tel:+977-46-521413">+977-46-521413</a></span>
+            </div>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <span>Email us :</span>
+              <span><a href="mailto:kusumpalace.nep@gmail.com">kusumpalace.nep@gmail.com</a></span>
+            </div>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <span>Location :</span>
+              <span><a href="https://goo.gl/maps/GRn2Z2aFBFMpv6i76"> Malangwa -08, Sarlahi, Nepal. <br> (Indo-Nepal Highway)</a></span>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="map flex-1">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.7685641319763!2d85.55999731464216!3d26.847312469366464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ec8909ea87670b%3A0x2234c8db90b41fb4!2sHotel%20Kusum%20Palace!5e0!3m2!1sen!2sin!4v1655184116559!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!--------------- Contact us end --------------->
+
+
+</div>
+<!--------------------- web container end--------------------->
+
+
+
+
+   <!------------------ footer ------------------->
+   <footer class="last-details flex">
+    <div class="container flex">
+      <!-- box 1 -->
+      <div style="display: none;" class="box">
+        <h3>About Us</h3>
+        <p>
+           <!-- Hotel Kusum Palace is best Hotel in Malangwa, newly transformed
+          smart city of Sarlahi District of Nepal and among best Hotels of
+          state. Since it's operation from year 2019 Hotel Kusum Palace has
+          earned reputation of star hotel with its elegance, hospitality and
+          services. -->
+        </p>
+      </div>
+      <!-- box 2 -->
+      <div class="box">
+        <h3>Quick Links</h3>
+        <div>
+        <ul class="footer-ul">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#facilities">Facilities</a></li>
+          <li><a href="../index.html#reservation">Reservation</a></li>
+          <li><a href="../index.html#gallery">Gallery</a></li>
+          <li><a href="../index.html#travel-desk">Travel Desk</a></li>
+          
+          <!-- <li><a href="#review">Reviews</a></li> -->
+          
+        </ul>
+      </div>
+      </div>
+      <!-- box3 -->
+      <div class="box">
+        <h3>Follow Us</h3>
+        <div>
+        <ul>
+          <!-- facebook -->
+          <li>
+            <a href="https://www.facebook.com/kusum.palace.12">
+              <img src="../icons/facebook.svg" alt="">
+              <span>Facebook</span>
+            </a>
+          </li>
+          <!-- instagram -->
+          <li>
+            <a href="https://www.instagram.com/hotelkusumpalace/">
+              <img src="../icons/instagram.svg" alt="">
+              <span>Instagram</span>
+            </a>
+          </li>
+          <!-- twitter -->
+          <li>
+            <a href="#0">
+              <img src="../icons/twitter.svg" alt="">
+              <span>Twitter</span>
+            </a>
+          </li>
+          <!-- Google+ -->
+          <li>
+            <a href="#0">
+              <img src="../icons/google.svg" alt="">
+              <span>Google+</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      </div>
+      <!-- box 4 -->
+      <div class="box instagram-api">
+        <h3>Gallery</h3>
+        <div class="post-wrapper">
+          <div>
+            <img src="../images/g (0).jpg" alt="">
+          </div>
+          
+          <div>
+            <img src="../images/gallary (6).jpg" alt="">
+          </div>
+          <div>
+            <img src="../images/g (4).jpg" alt="">
+          </div>
+          
+          <div>
+            <img src="../images/g (15).jpg" alt="">
+          </div>
+          <div>
+            <img src="../images/g (6).jpg" alt="">
+          </div>
+          <div>
+            <img src="../images/gallary (2).jpg" alt="">
+          </div>
+          
+        </div>
+
+         
+        
+      </div>
+    </div>
+  </footer>
+  <!-------------- Copyright Section --------->
+  <footer class="copyright">
+    <div>
+      | Copyright &copy; <span> www.kusumpalace.com </span> All rights resreved<a href="#"></a> |
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+ <!-- Amination -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+   AOS.init(
+     {
+       delay: 240,
+     }
+   );
+ </script>
+  
+</body>
+</html>
